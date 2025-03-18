@@ -10,6 +10,14 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
+// import Ex5 from "./Practice/Transitions/Ex5"
+// import Ex6 from "./Practice/Transitions/Ex6"
+
+// import { Ex1 } from "./Practice/Transitions/Ex1"
+// import { Ex2 } from "./Practice/Transitions/Ex2"
+// import Ex3 from "./Practice/Transitions/Ex3"
+// import { Ex4 } from "./Practice/Transitions/Ex4"
+
 // import { BouncingCircle } from "./Practice/TRansformations/BouncingCircle"
 // import { Box } from "./Practice/TRansformations/Box"
 // import { ComplexAnimation } from "./Practice/TRansformations/ComplexAnimation"
@@ -76,6 +84,8 @@ function App() {
 
 
      {/* -------practice-------  */}
+     
+     {/* Transformations */}
 
      {/* <Box/> */}
      {/* <BouncingCircle/> */}
@@ -83,9 +93,21 @@ function App() {
      {/* <SkewRectangle/> */}
      {/* <ComplexAnimation/> */}
      {/* <SequentialBoxes/> */}
+
+
+     {/* transitions */}
+       {/* <Ex1/> */}
+       {/* <Ex2/> */}
+       {/* <Ex3/> */}
+       {/* <Ex4/> */}
+       {/* <Ex5/> */}
+       {/* <Ex6/> */}
+
     </>
   )
 }
+
+
 
 
 
