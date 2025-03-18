@@ -10,6 +10,15 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
+// import AnimatedBackground from "./Practice/KeyFrames/AnimatedBackground"
+// import ColorChangeSquare from "./Practice/KeyFrames/ColorChangeSquare"
+// import PulsatingButton from "./Practice/KeyFrames/PulsatingButton"
+// import SlidingText from "./Practice/KeyFrames/SlidingText"
+// import WaveEffect from "./Practice/KeyFrames/WaveEffect"
+// import ZigzagAnimation from "./Practice/KeyFrames/ZigzagAnimation"
+
+// import { BouncingBall } from "./Practice/KeyFrames/BouncingBall"
+
 // import Ex5 from "./Practice/Transitions/Ex5"
 // import Ex6 from "./Practice/Transitions/Ex6"
 
@@ -103,6 +112,14 @@ function App() {
        {/* <Ex5/> */}
        {/* <Ex6/> */}
 
+       {/* KeyFrames */}
+        {/* <BouncingBall/> */}
+        {/* <PulsatingButton/> */}
+        {/* <ColorChangeSquare/> */}
+        {/* <SlidingText/> */}
+        {/* <ZigzagAnimation/> */}
+        {/* <WaveEffect/> */}
+        {/* <AnimatedBackground/> */}
     </>
   )
 }
