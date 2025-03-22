@@ -10,6 +10,38 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
+import DraggableBox from "./Practice/UseSpring/DraggableBox"
+import CardFlip from "./Practice/WhileInView/CardFlip"
+import InteractiveCards from "./Practice/WhileInView/InteractiveCards"
+import StaggeredList from "./Practice/WhileInView/StaggeredList"
+import TimelineAnimation from "./Practice/WhileInView/TimelineAnimations"
+
+// import DynamicRotation from "./Practice/useMotionValue/DynamicRotation"
+// import DraggableBox from "./Practice/useMotionValue/GraggableBox"
+// import HoverLinkedScale from "./Practice/useMotionValue/HoverLinkedScale"
+// import SpringAnimatedPosition from "./Practice/useMotionValue/SpringAnimatedPosition"
+
+// import { StaggerAnimation } from "./Components/StaggerAnimation"
+// import StaggeredButtonPress from "./Practice/Stagger Animations/StaggeredButtonPress"
+// import StaggeredImageGallery from "./Practice/Stagger Animations/StaggeredGallery"
+// import StaggeredGridLayout from "./Practice/Stagger Animations/StaggeredGridLayout"
+// import StaggeredTextReveal from "./Practice/Stagger Animations/StaggeredTextReveal"
+
+// import GestureBasedImageGallery from "./Practice/Gestures/GestureBasedImageGallery"
+// import LongPressToChangeSize from "./Practice/Gestures/LongPresToChangeSize"
+// import TapToChangeColor from "./Practice/Gestures/TapToChangeColor"
+
+// import { Gesture } from "./Components/Gesture"
+// import DraggableBox from "./Practice/Gestures/DraggableBox"
+// import RotateOnDrag from "./Practice/Gestures/RotateOndrag"
+// import SwipeableCard from "./Practice/Gestures/SwipeableCard"
+
+// import SlidingMenu from "./Practice/Variants/DlifingMenu"
+// import DynamicList from "./Practice/Variants/DynamicList"
+// import FadeInComponent from "./Practice/Variants/FadeInComponents"
+// import ToggleSwitch from "./Practice/Variants/ToggleSwitch"
+// import Tooltip from "./Practice/Variants/ToolTip"
+
 // import AnimatedBackground from "./Practice/KeyFrames/AnimatedBackground"
 // import ColorChangeSquare from "./Practice/KeyFrames/ColorChangeSquare"
 // import PulsatingButton from "./Practice/KeyFrames/PulsatingButton"
@@ -120,9 +152,50 @@ function App() {
         {/* <ZigzagAnimation/> */}
         {/* <WaveEffect/> */}
         {/* <AnimatedBackground/> */}
+
+        {/*   Variants  */}
+        {/* <FadeInComponent/> */}
+        {/* <SlidingMenu/> */}
+        {/* <Tooltip/> */}
+        {/* <ToggleSwitch/> */}
+        {/* <DynamicList/> */}
+
+        {/* Gesture */}
+          {/* <SwipeableCard/> */}
+          {/* <DraggableBox/> */}
+          {/* <RotateOnDrag/> */}
+          {/* <TapToChangeColor/> */}
+          {/* <LongPressToChangeSize/> */}
+          {/* <GestureBasedImageGallery/> */}
+
+        {/* Stagger Animations  */}
+           {/* <StaggerAnimation/> */}
+           {/* <StaggeredButtonPress/> */}
+           {/* <StaggeredImageGallery/> */}
+           {/* <StaggeredGridLayout/> */}
+           {/* <StaggeredTextReveal/> */}
+
+        {/* USeMotion value */}
+            {/* <DraggableBox/> */}
+            {/* <HoverLinkedScale/> */}
+            {/* <SpringAnimatedPosition/> */}
+            {/* <DynamicRotation /> */}
+
+         {/* Use Spring */}
+            {/* <DraggableBox/> */}
+        
+         {/* Whilein View */}
+         {/* <StaggeredList/> */}
+         {/* <CardFlip/> */}
+         {/* <TimelineAnimation/> */}
+         {/* <InteractiveCards/> */}
+
     </>
   )
 }
+
+
+// 19:02
 
 
 
