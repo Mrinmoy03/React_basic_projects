@@ -1,10 +1,13 @@
 @import "tailwindcss";
+
+
+/* practice */
 /* *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 } */
-body{
+/* body{
   background-color: #0d1017;
   color: #fff;
   display: flex;
@@ -12,10 +15,34 @@ body{
   align-items: center;
   height: 100vh;
 
-}
-.box{
-  width: 300px;
-  height: 300px;
-  /* border-radius: 100%; */
+} */
+/* .box{
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
   background: yellow;
+} */
+
+
+
+
+/* caraousel css
+ */
+
+
+ button {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: white;
+  font-size: 1.5rem;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
 }

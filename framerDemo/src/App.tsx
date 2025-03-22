@@ -10,7 +10,12 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
-import DraggableCard from "./Projects/3.Draggable Cards/DraggableCard"
+import ScrollAnimation from "./Projects/6.Scroll Animation/ScrollAnimation"
+import ScrollCarousel from "./Projects/7.Horizontal Scroll/ScrollCarousel"
+
+// import DraggableCard from "./Projects/3.Draggable Cards/DraggableCard"
+// import Carousel from "./Projects/4.Carousel/Carousel"
+// import Sidebar from "./Projects/5.Advance Animation Navigation/Sidebar"
 
 // import ScrollIndicator from "./Projects/1.Scroll Indicator/ScrollIndicator"
 // import Loader from "./Projects/2.Loader/Loader"
@@ -201,11 +206,13 @@ function App() {
 
 
          {/*Projects  */}
+
+
            {/* <ScrollIndicator/> */}
            {/* <Loader/> */}
 
-           {/* draggble card project 3  also disconnect  body the css*/}
-           <div>
+           {/* draggble card project 3  also disconnect  body in the css*/}
+           {/* <div>
       <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
         <DraggableCard
           style={{
@@ -229,7 +236,28 @@ function App() {
           Card 3
         </DraggableCard>
       </div>
-    </div>
+    </div> */}
+              
+
+               {/* Carousel  make sure css is in point
+                */}
+               {/* <div className="flex justify-center items-center h-screen">
+      <Carousel />
+    </div> */} 
+                   
+              {/* Advance css navigation */}
+              {/* <div className="flex justify-center items-center h-screen w-full bg-gray-950">
+      <Sidebar />
+    </div> */}
+
+          {/* Scroll animation
+           */}
+           {/* <ScrollAnimation/> */}
+
+           {/*Horizontal Scroll  */}
+           <ScrollCarousel/>
+
+              
     </>
   )
 }
