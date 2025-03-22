@@ -10,8 +10,10 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
-import ScrollAnimation from "./Projects/6.Scroll Animation/ScrollAnimation"
-import ScrollCarousel from "./Projects/7.Horizontal Scroll/ScrollCarousel"
+// import ScrollAnimation from "./Projects/6.Scroll Animation/ScrollAnimation"
+// import ScrollCarousel from "./Projects/7.Horizontal Scroll/ScrollCarousel"
+// import StickyNav from "./Projects/8.Sticky Navbar/StickyNav"
+import ProgressSteps from "./Projects/9.Progress Steps/ProgressStep"
 
 // import DraggableCard from "./Projects/3.Draggable Cards/DraggableCard"
 // import Carousel from "./Projects/4.Carousel/Carousel"
@@ -255,7 +257,15 @@ function App() {
            {/* <ScrollAnimation/> */}
 
            {/*Horizontal Scroll  */}
-           <ScrollCarousel/>
+           {/* <ScrollCarousel/> */}
+
+           {/* Sticky navbar */}
+           {/* <StickyNav/> */}
+
+
+           {/* pROGRESS STEP    (detach the css) */}
+
+           <ProgressSteps/>
 
               
     </>
