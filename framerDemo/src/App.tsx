@@ -10,11 +10,17 @@
 // import FlippingCard from "./examples/FlippingCard"
 // import { ImageGallery } from "./examples/ImageGallery"
 
-import DraggableBox from "./Practice/UseSpring/DraggableBox"
-import CardFlip from "./Practice/WhileInView/CardFlip"
-import InteractiveCards from "./Practice/WhileInView/InteractiveCards"
-import StaggeredList from "./Practice/WhileInView/StaggeredList"
-import TimelineAnimation from "./Practice/WhileInView/TimelineAnimations"
+import DraggableCard from "./Projects/3.Draggable Cards/DraggableCard"
+
+// import ScrollIndicator from "./Projects/1.Scroll Indicator/ScrollIndicator"
+// import Loader from "./Projects/2.Loader/Loader"
+
+
+// import DraggableBox from "./Practice/UseSpring/DraggableBox"
+// import CardFlip from "./Practice/WhileInView/CardFlip"
+// import InteractiveCards from "./Practice/WhileInView/InteractiveCards"
+// import StaggeredList from "./Practice/WhileInView/StaggeredList"
+// import TimelineAnimation from "./Practice/WhileInView/TimelineAnimations"
 
 // import DynamicRotation from "./Practice/useMotionValue/DynamicRotation"
 // import DraggableBox from "./Practice/useMotionValue/GraggableBox"
@@ -190,12 +196,46 @@ function App() {
          {/* <TimelineAnimation/> */}
          {/* <InteractiveCards/> */}
 
+
+
+
+
+         {/*Projects  */}
+           {/* <ScrollIndicator/> */}
+           {/* <Loader/> */}
+
+           {/* draggble card project 3  also disconnect  body the css*/}
+           <div>
+      <div className="flex justify-center items-center h-[100vh] bg-[#f3f3f3]">
+        <DraggableCard
+          style={{
+            background: "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+          }}
+        >
+          Card 1
+        </DraggableCard>
+        <DraggableCard
+          style={{
+            background: "linear-gradient(135deg, #5ee7df 0%, #b490ca 100%)",
+          }}
+        >
+          Card 2
+        </DraggableCard>
+        <DraggableCard
+          style={{
+            background: "linear-gradient(135deg, #ff9a9e 0%, #fecfef 99%)",
+          }}
+        >
+          Card 3
+        </DraggableCard>
+      </div>
+    </div>
     </>
   )
 }
 
 
-// 19:02
+
 
 
 
